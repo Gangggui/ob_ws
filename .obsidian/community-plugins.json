@@ -3,5 +3,6 @@
   "nldates-obsidian",
   "obsidian-plugin-todo",
   "obsidian-kanban",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-git"
 ]

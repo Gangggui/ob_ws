@@ -3,3 +3,9 @@
 机械臂直线移动：https://fishros.org.cn/forum/topic/714/moveit%E8%8B%A5%E4%B8%8D-%E9%AA%9A-%E4%B8%BA%E4%BD%95%E6%9C%BA%E6%A2%B0%E8%87%82%E8%80%81%E6%89%AD%E8%85%B0-%E5%B0%8F%E9%B1%BC%E5%B8%A6%E4%BD%A0%E8%A7%A3%E5%86%B3moveit%E8%A7%84%E5%88%92%E7%BB%95%E8%B7%AF%E9%97%AE%E9%A2%98
 
 点云匹配：
+
+#### MoveIt使用教程
+: 把重心放在异常处理上，不纠结于具体细节的处理，重点在于掌握及使用
+
+
+
