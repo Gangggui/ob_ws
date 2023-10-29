@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "31165d720be72c0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "05a07c6008cf1b0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "964df6de74f2ef29",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "任务看板.md"
+              }
+            }
+          },
+          {
+            "id": "b172de22d3ddcf2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ubuntu系统(nx开发板)can协议.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36da83ea5f209810",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
+            "id": "6eb78ee6b7d15bb0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d34bf077857d7958",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3297bd0c9a4d769",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f349ae1b44682f09",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2beb195c46febfde",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "action",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a7a44aa1474ac1df",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "1a04006cb2164849",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 245.5
+  },
+  "right": {
+    "id": "2bd7c17b32e073c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ed8ac0e9457b096",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9b45a6867e44ac2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ubuntu系统(nx开发板)can协议.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "683ff5ee5967c45a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ubuntu系统(nx开发板)can协议.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a0a0ea327e442e3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "48aaae0428c1edaa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ubuntu系统(nx开发板)can协议.md"
+              }
+            }
+          },
+          {
+            "id": "d4f1bc2deff1f101",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "1cb8e219f6984020",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "b172de22d3ddcf2b",
+  "lastOpenFiles": [
+    "任务看板.md",
+    "ubuntu系统(nx开发板)can协议.md",
+    "Linux Shell.md",
+    "Behavior-tree.md",
+    "rospy使用.md",
+    "2023-09-11.md",
+    "资料收集.md",
+    "2023-09-22.md",
+    "IO/EtherCat",
+    "IO/Mqtt",
+    "IO/Can",
+    "IO/Modbus",
+    "IO/HTTP",
+    "IO/TCP&UDP",
+    "IO",
+    "c++ 异常崩溃记录.md",
+    "3D点云处理/CMR75雷达通信协议（内部）_6.0 .pdf",
+    "3D点云处理/icp处理.md",
+    "3D点云处理/硬件-激光雷达.md",
+    "ompl算法.md",
+    "2023_9月安排.md",
+    "2023-09-07.md",
+    "2023-09-06.md",
+    "c++内存释放和析构.md",
+    "Pasted image 20230906193840.png",
+    "Pasted image 20230906191729.png",
+    "Pasted image 20230906191501.png",
+    "3D目标检测综述.md",
+    "cmake.md",
+    "2022-12-06.md",
+    "2023-09-01.md",
+    "3D点云处理/3D文献管理.md",
+    "机械臂/规划.md",
+    "Pasted image 20230829141108.png",
+    "Pasted image 20230829141205.png",
+    "Pasted image 20230829141200.png",
+    "Pasted image 20230829141154.png",
+    "Pasted image 20230829141146.png",
+    "Pasted image 20230829141135.png",
+    "Pasted image 20230829141130.png",
+    "机械臂/未命名.md",
+    "机械臂",
+    "代码框架/ros/Ros service.md",
+    "项目仓库/多线程.md",
+    "代码框架/ros",
+    "基础常识/汽车.md",
+    "未命名 9.canvas",
+    "未命名 8.canvas",
+    "未命名 7.canvas",
+    "未命名 6.canvas",
+    "未命名 5.canvas",
+    "未命名 4.canvas"
+  ]
+}

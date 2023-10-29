@@ -1,0 +1,9 @@
+
+service_name: /camera_hk/request
+data_msgs: /camera_hk/data
+save_picture_path: /data/camera_hk/images
+save_video_path:   /data/camera_hk/videos
+save_floder_num:  4
+start_station_substation: "30_1"
+
+

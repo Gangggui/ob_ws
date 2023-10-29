@@ -1,0 +1,60 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+participant  MasterControl as ms
+participant  TopsControls as ts
+participant  arm
+participant  capture
+participant  image_recognition
+participant  3d_camera
+
+'主控和上装工控机的暂时接口
+ms -[#red]> ts : MasterSelfInspectionGoal
+ note left: topic: " ", 根据模块ID下方自检指令到各模块
+group 自检service
+ ts <-[#red]> arm : selfInspection
+ note right: TODO:
+ ts <-[#red]> capture : selfInspection
+  note right: TODO:
+ ts <-[#red]> image_recognition : selfInspection
+  note right: TODO:
+ ts <-[#red]> 3d_camera : selfInspection
+  note right: TODO:
+end
+
+ts --[#red]> ms : MasterSelfInspectionResult
+
+
+
+ms -[#blue]>ts : MasterTopsMotionGoal
+ note left: topic: " "
+
+ group Motion service
+  ts <-[#blue]> arm : tops_motions
+  note over ts, arm: 服务名
+ end
+ts --[#blue]> ms : MasterTopsMotionResult
+
+ms -[#green]> ts : MasterServoOperateGoal
+ note left: topic: " "
+  group Motion service
+   ts <-[#blue]> arm : servo_operate
+   note over ts, arm: 服务名
+  end
+ts --[#green]> ms : MasterServoOperateResult
+
+ms -[#orange]> ts : MasterTopsStopGoal
+ note left: topic: " "
+ group stop service
+    ts <-[#blue]> arm : stop
+    note over ts, arm: 服务名
+   end
+ts --[#orange]> ms : MasterTopsStopResult
+
+ts -> ms : sensor_msgs/JointState
+image_recognition ->ts : tops_task_msgs/ImgRecognition
+ts -> ms : tops_task_msgs/ImgRecognition
+ms -> ts : std_msgs/Int32
+
+
+@enduml

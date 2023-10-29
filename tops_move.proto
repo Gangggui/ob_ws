@@ -1,0 +1,129 @@
+syntax = "proto3";
+
+import "request_header.proto";
+import "response_header.proto";
+
+package RobotTopsMove;
+
+service TopsMoveProtocol {
+
+  // @brief 获取机械臂避障规划结果
+  // @in MoveArmGoal 机械臂移动目标，详情见MoveArmGoal定义处定义
+  // @out ArmPLanRes 机械臂规划轨迹，详情见ArmPlanRes定义处定义
+  rpc sendArmPlan (MoveArmGoal) returns (ArmPLanRes) {}
+
+  // @brief 发送机械臂移动任务
+  // @in MoveArmGoal 机械臂移动目标，详情见MoveArmGoal定义处定义
+  // @out MasterRes 主控标准回复格式
+  rpc sendMoveArm (MoveArmGoal) returns (MasterRes) {}
+
+  // @brief 发送丝杆移动任务
+  // @in MoveScrewGoal 丝杆移动目标，详情见MoveScrewGoal定义处定义
+  // @out MasterRes 主控标准回复格式
+  rpc sendMoveScrew (MoveScrewGoal) returns (MasterRes) {}
+
+  // @brief 停止当前上装所有移动任务(包括机械臂和丝杆)
+  // @in EmptyReq 空的任务请求
+  // @out MasterRes 主控标准回复格式
+  rpc stopMotion(EmptyReq) returns (MasterRes) {}
+
+  // @brief 设置夹爪开合状态
+  // @in
+  rpc setGraspStatus(GraspStatusReq) returns (MasterRes) {}
+
+  // @brief 丝杆上电后初始化接口
+  // @in EmptyReq 空的任务请求
+  // @out MasterRes 主控标准回复格式
+  rpc initScrew(EmptyReq) returns (MasterRes) {}
+
+  // @brief 获取当前上装机械臂和丝杆位置
+  // @in EmptyRes 空的任务请求
+  // @out JointType 包括2个丝杆位置和2*6个机械臂关节位置, 顺序见消息定义处
+  rpc getTopsMoveJoint (EmptyReq) returns (JointType) {}
+
+  // @brief 获取当前上装程序运行状态
+  // @in EmptyReq 空的任务请求
+  // @out MoveStateRes 当前上装任务运行状态， 详情见消息定义处
+  rpc getTopsMoveState (EmptyReq) returns (MoveStateRes) {}
+
+}
+
+enum ArmId {
+  FRONT_ARM = 0; // 前臂
+  BACK_ARM = 1; // 后臂
+}
+message MoveArmGoal {
+  RequestHeader header = 1;
+  ArmId id = 2; // 机械臂id
+  repeated double joint = 3; // 机械臂关节1-6的目标关节值，单位为弧度制
+}
+
+message MoveScrewGoal {
+  RequestHeader header = 1;
+  double screw_joint = 2; // 尾部丝杆目标值，单位为m
+  double lift_joint = 3; // 中间推杆目标值，单位为m
+}
+
+message JointType {
+  // name为2个丝杆+2*6个机械臂关节的名称，joint为对应索引的值
+  // name值为：[lift_joint, screw_joint, front_arm_joint1, front_arm_joint2, front_arm_joint3,
+  // front_arm_joint4, front_arm_joint5, front_arm_joint6, back_arm_joint1, back_arm_joint2,
+  // back_arm_joint3, back_arm_joint4, back_arm_joint5, back_arm_joint6]
+  ResponseHeader response_header = 1;
+  repeated bytes name = 2;
+  repeated double joint = 3;
+}
+
+enum TaskStatus{
+  TASK_COMPLETED   = 0 ;// 任务已完成
+  TASK_FAILED      = 1 ;// 任务失败，需重新执行
+  TASK_ERROR       = 2 ;// 任务已出错，需重启模块
+  TASK_FATAL_ERROR = 3 ;// 任务出现致命错误，需关闭硬件电源重启
+}
+
+message MasterRes {
+  ResponseHeader response_header = 1;
+  TaskStatus status = 2; // 执行状态
+  bytes info = 3; // 备注信息
+}
+
+message FloatList {
+  repeated float data = 1;
+}
+
+// 随动操作结果
+message ArmPLanRes {
+  ResponseHeader response_header = 1;
+  TaskStatus status = 2;
+  bytes info = 3;
+
+  // 规划结果：二维数组，[n][6], n表示第n个时刻点，
+  // 第二维度为指定机械臂的6个关节规划位置
+  repeated FloatList plan = 4;
+}
+
+enum TopsMoveState {
+  TopsInit = 0; // 丝杆为归零初始化/机械臂未上电
+  TopsStandby = 1; // 初始化成功，等待任务到来
+  TopsFinish = 2; // 完成上装移动任务
+  TopsFailed = 3; // 上装任务失败
+  TopsError = 4; // 上装任务异常，无法继续进行任务
+}
+
+message MoveStateRes {
+  ResponseHeader response_header = 1;
+  TopsMoveState state  = 2;
+}
+
+message GraspStatusReq {
+  RequestHeader header = 1;
+  bool is_open = 2; // 打开夹爪为true，关闭夹爪为false
+}
+
+message EmptyReq {
+  RequestHeader header = 1;
+}
+
+message EmptyRes {
+  ResponseHeader response_header = 1;
+}

@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+|callback|
+start
+:解析指令内容;
+switch(action)
+case(后臂移动)
+    :进行规划;
+    if (规划) then (成功)
+        :跳入下一完结;
+    else
+        :任务异常，结束;
+        stop
+    endif
+case(前臂移动)
+    :进行规划;
+    if (规划) then (成功)
+            :跳入下一完结;
+        else
+            :任务异常，结束;
+            stop
+        endif
+case(丝杆移动)
+    :进行丝杆移动;
+    if (机械臂不在安全) then
+        :进行规划操作+进行丝杆移动;
+    endif
+endswitch
+:规划成功,进入移动环节;
+
+while(动作序列.size()>1)
+    switch(动作类型)
+    case(前臂移动)
+        :move;
+    case(后臂移动)
+        :move;
+    case(丝杆移动)
+        :move;
+    case(等待丝杆移动完成)
+        :move, index不变;
+        if (超时) then
+            :丝杆移动失败;
+            stop
+        endif
+    endswitch
+endwhile
+:任务已完成;
+stop
+@enduml

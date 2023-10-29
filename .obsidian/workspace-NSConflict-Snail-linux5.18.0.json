@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "31165d720be72c0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee51d1cf906eb888",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9ec973d53c9e4c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "trac_ik和kdl使用.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d34bf077857d7958",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3297bd0c9a4d769",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f349ae1b44682f09",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2beb195c46febfde",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a7a44aa1474ac1df",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 203.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "2bd7c17b32e073c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ed8ac0e9457b096",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9b45a6867e44ac2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "trac_ik和kdl使用.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "683ff5ee5967c45a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "trac_ik和kdl使用.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a0a0ea327e442e3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "48aaae0428c1edaa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "trac_ik和kdl使用.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b9ec973d53c9e4c9",
+  "lastOpenFiles": [
+    "2022-12-06.md",
+    "trac_ik和kdl使用.md",
+    "Python_basci.md",
+    "ubuntu桌面环境美化.md",
+    "world.md",
+    "Python基础/Python编程：从入门到实践.pdf",
+    "Python基础/python笔记.pdf",
+    "环境搭建/Ubuntu18.04 环境搭建.md",
+    "环境搭建/联想小新pro14安装ubuntu基础.md",
+    "2022-12-04.md"
+  ]
+}

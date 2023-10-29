@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"79fa085fa9bc771e","x":-420,"y":-400,"width":250,"height":60,"type":"text","text":"操作类型"},
+		{"id":"753a870715fb2275","x":-620,"y":-260,"width":250,"height":60,"type":"text","text":"\t如何根据json文件生成不同的行为树"},
+		{"id":"7ce6526e68a9c350","x":-200,"y":-260,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[]
+}
