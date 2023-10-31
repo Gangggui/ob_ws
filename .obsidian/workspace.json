@@ -13,43 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "环境搭建/MoveIt.md",
+                "file": "项目仓库/PDC200/PDC200模块汇总.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b172de22d3ddcf2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ubuntu系统(nx开发板)can协议.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36da83ea5f209810",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
-          },
-          {
-            "id": "6eb78ee6b7d15bb0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
               }
             }
           }
@@ -107,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "环境搭建/MoveIt.md",
+                "file": "项目仓库/PDC200/PDC200模块汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "环境搭建/MoveIt.md",
+                "file": "项目仓库/PDC200/PDC200模块汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "环境搭建/MoveIt.md"
+                "file": "项目仓库/PDC200/PDC200模块汇总.md"
               }
             }
           },
@@ -210,6 +176,11 @@
   },
   "active": "964df6de74f2ef29",
   "lastOpenFiles": [
+    "项目仓库/PDC200/Tops_Move模块.md",
+    "项目仓库/PDC200/PDC200模块汇总.md",
+    "2023-10-30.md",
+    "项目仓库/PDC200",
+    "环境搭建/MoveIt.md",
     "2023-10-29.md",
     "moveit 环境感知 点云.md",
     "2022-12-08.md",
@@ -243,10 +214,6 @@
     "Pasted image 20230906191501.png",
     "3D目标检测综述.md",
     "cmake.md",
-    "2022-12-06.md",
-    "2023-09-01.md",
-    "3D点云处理/3D文献管理.md",
-    "机械臂/规划.md",
     "Pasted image 20230829141108.png",
     "Pasted image 20230829141205.png",
     "Pasted image 20230829141200.png",
@@ -255,7 +222,6 @@
     "Pasted image 20230829141135.png",
     "Pasted image 20230829141130.png",
     "机械臂",
-    "代码框架/ros",
     "未命名 9.canvas",
     "未命名 8.canvas",
     "未命名 7.canvas",
