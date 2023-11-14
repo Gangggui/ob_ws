@@ -11,9 +11,12 @@
             "id": "964df6de74f2ef29",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "任务看板.md"
+                "file": "上装工控机逻辑梳理.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -46,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "string",
+                "query": "tops_move",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "任务看板.md",
+                "file": "上装工控机逻辑梳理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "任务看板.md",
+                "file": "上装工控机逻辑梳理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "任务看板.md"
+                "file": "上装工控机逻辑梳理.md"
               }
             }
           },
@@ -171,8 +174,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f349ae1b44682f09",
+  "active": "964df6de74f2ef29",
   "lastOpenFiles": [
+    "任务看板.md",
     "tokenizer.md",
     "c++ 程序计时接口.md",
     "Behavior-tree.md",
@@ -192,7 +196,6 @@
     "moveit 环境感知 点云.md",
     "2022-12-08.md",
     "2023-05-04.md",
-    "任务看板.md",
     "ubuntu系统(nx开发板)can协议.md",
     "Linux Shell.md",
     "rospy使用.md",
