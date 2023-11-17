@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ubuntu自启动设置.md",
+                "file": "QAbstractTableModel.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#qt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "2bd7c17b32e073c1",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ubuntu自启动设置.md",
+                "file": "QAbstractTableModel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ubuntu自启动设置.md",
+                "file": "QAbstractTableModel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ubuntu自启动设置.md"
+                "file": "QAbstractTableModel.md"
               }
             }
           },
@@ -177,8 +178,13 @@
   },
   "active": "964df6de74f2ef29",
   "lastOpenFiles": [
-    "2023-11-17.md",
+    "Pasted image 20231117215349.png",
+    "代码阅读/tops_gui/Tops-Gui.md",
+    "QAbstractTableModel.md",
     "ubuntu自启动设置.md",
+    "代码阅读/tops_gui",
+    "代码阅读",
+    "2023-11-17.md",
     "上装工控机逻辑梳理.md",
     "任务看板.md",
     "tokenizer.md",
@@ -201,9 +207,6 @@
     "2023-05-04.md",
     "ubuntu系统(nx开发板)can协议.md",
     "Linux Shell.md",
-    "rospy使用.md",
-    "2023-09-11.md",
-    "资料收集.md",
     "IO/EtherCat",
     "IO/Mqtt",
     "IO/Can",
@@ -211,7 +214,6 @@
     "IO/HTTP",
     "IO/TCP&UDP",
     "IO",
-    "3D点云处理/CMR75雷达通信协议（内部）_6.0 .pdf",
     "Pasted image 20230906193840.png",
     "Pasted image 20230906191729.png",
     "Pasted image 20230906191501.png",
@@ -222,7 +224,6 @@
     "Pasted image 20230829141146.png",
     "Pasted image 20230829141135.png",
     "Pasted image 20230829141130.png",
-    "机械臂",
     "未命名 9.canvas",
     "未命名 8.canvas",
     "未命名 7.canvas",
