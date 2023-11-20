@@ -1,3 +1,4 @@
+workspace.json
 .vscode
 cmake-build-debug
 *.zip
