@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QRviz.md",
+                "file": "c++设置系统音量.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QRviz.md",
+                "file": "c++设置系统音量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QRviz.md",
+                "file": "c++设置系统音量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QRviz.md"
+                "file": "c++设置系统音量.md"
               }
             }
           },
@@ -178,8 +178,10 @@
   },
   "active": "964df6de74f2ef29",
   "lastOpenFiles": [
-    "代码阅读/tops_gui/Tops-Gui.md",
+    "2023-11-20.md",
+    "c++设置系统音量.md",
     "QRviz.md",
+    "代码阅读/tops_gui/Tops-Gui.md",
     "QAbstractTableModel.md",
     "Pasted image 20231117215349.png",
     "ubuntu自启动设置.md",
@@ -206,8 +208,6 @@
     "moveit 环境感知 点云.md",
     "2022-12-08.md",
     "2023-05-04.md",
-    "ubuntu系统(nx开发板)can协议.md",
-    "Linux Shell.md",
     "IO/EtherCat",
     "IO/Mqtt",
     "IO/Can",
