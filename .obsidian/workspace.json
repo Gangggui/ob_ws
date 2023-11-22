@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RVIZ.md",
+                "file": "2023-11-22.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RVIZ.md",
+                "file": "2023-11-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RVIZ.md",
+                "file": "2023-11-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RVIZ.md"
+                "file": "2023-11-22.md"
               }
             }
           },
@@ -178,8 +178,9 @@
   },
   "active": "964df6de74f2ef29",
   "lastOpenFiles": [
-    "2023-11-21.md",
     "RVIZ.md",
+    "2023-11-22.md",
+    "2023-11-21.md",
     "c++设置系统音量.md",
     "2023-11-20.md",
     "QRviz.md",
@@ -207,7 +208,6 @@
     "项目仓库/PDC200",
     "环境搭建/MoveIt.md",
     "2023-10-29.md",
-    "moveit 环境感知 点云.md",
     "IO/EtherCat",
     "IO/Mqtt",
     "IO/Can",
