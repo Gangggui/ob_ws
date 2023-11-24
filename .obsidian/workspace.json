@@ -11,12 +11,9 @@
             "id": "964df6de74f2ef29",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "2023-11-22.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "任务看板.md"
               }
             }
           }
@@ -49,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#qt",
+                "query": "看板",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "2bd7c17b32e073c1",
@@ -96,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-11-22.md",
+                "file": "任务看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-11-22.md",
+                "file": "任务看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-11-22.md"
+                "file": "任务看板.md"
               }
             }
           },
@@ -178,8 +174,11 @@
   },
   "active": "964df6de74f2ef29",
   "lastOpenFiles": [
-    "RVIZ.md",
+    "机器人仿真工具.md",
+    "2023-11-24.md",
+    "copilo.md",
     "2023-11-22.md",
+    "RVIZ.md",
     "2023-11-21.md",
     "c++设置系统音量.md",
     "2023-11-20.md",
@@ -204,10 +203,7 @@
     "项目仓库/多线程.md",
     "项目仓库/PDC200/PDC200模块汇总.md",
     "项目仓库/PDC200/Tops_Move模块.md",
-    "2023-10-30.md",
     "项目仓库/PDC200",
-    "环境搭建/MoveIt.md",
-    "2023-10-29.md",
     "IO/EtherCat",
     "IO/Mqtt",
     "IO/Can",
