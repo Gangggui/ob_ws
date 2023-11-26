@@ -11,9 +11,12 @@
             "id": "964df6de74f2ef29",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "任务看板.md"
+                "file": "Elfin机械臂使用.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -76,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "2bd7c17b32e073c1",
@@ -92,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "任务看板.md",
+                "file": "Elfin机械臂使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "任务看板.md",
+                "file": "Elfin机械臂使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "任务看板.md"
+                "file": "Elfin机械臂使用.md"
               }
             }
           },
@@ -174,6 +178,9 @@
   },
   "active": "964df6de74f2ef29",
   "lastOpenFiles": [
+    "2023-11-25.md",
+    "Elfin机械臂使用.md",
+    "任务看板.md",
     "机器人仿真工具.md",
     "2023-11-24.md",
     "copilo.md",
@@ -191,7 +198,6 @@
     "代码阅读",
     "2023-11-17.md",
     "上装工控机逻辑梳理.md",
-    "任务看板.md",
     "tokenizer.md",
     "c++ 程序计时接口.md",
     "Behavior-tree.md",
@@ -201,8 +207,6 @@
     "cmake.md",
     "Open3D icp.md",
     "项目仓库/多线程.md",
-    "项目仓库/PDC200/PDC200模块汇总.md",
-    "项目仓库/PDC200/Tops_Move模块.md",
     "项目仓库/PDC200",
     "IO/EtherCat",
     "IO/Mqtt",
