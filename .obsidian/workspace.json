@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-11-25.md",
+                "file": "环境搭建/MoveIt.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-11-25.md",
+                "file": "环境搭建/MoveIt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-11-25.md",
+                "file": "环境搭建/MoveIt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-11-25.md"
+                "file": "环境搭建/MoveIt.md"
               }
             }
           },
@@ -177,6 +177,8 @@
   },
   "active": "964df6de74f2ef29",
   "lastOpenFiles": [
+    "2023-11-27_14-16.png",
+    "2023-11-25.md",
     "2023-11-27.md",
     "Jetson-增加交换空间.md",
     "Pasted image 20231127095853.png",
@@ -185,7 +187,6 @@
     "QT-消息弹窗.md",
     "ROS 基础.md",
     "Elfin机械臂使用.md",
-    "2023-11-25.md",
     "任务看板.md",
     "机器人仿真工具.md",
     "2023-11-24.md",
