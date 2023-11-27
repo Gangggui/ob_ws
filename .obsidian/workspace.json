@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QT-消息弹窗.md",
+                "file": "2023-11-25.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "看板",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 245.5
   },
   "right": {
     "id": "2bd7c17b32e073c1",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QT-消息弹窗.md",
+                "file": "2023-11-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QT-消息弹窗.md",
+                "file": "2023-11-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QT-消息弹窗.md"
+                "file": "2023-11-25.md"
               }
             }
           },
@@ -179,6 +178,10 @@
   "active": "964df6de74f2ef29",
   "lastOpenFiles": [
     "2023-11-27.md",
+    "Jetson-增加交换空间.md",
+    "Pasted image 20231127095853.png",
+    "Pasted image 20231127095841.png",
+    "Pasted image 20231127095819.png",
     "QT-消息弹窗.md",
     "ROS 基础.md",
     "Elfin机械臂使用.md",
@@ -205,8 +208,6 @@
     "c++ 程序计时接口.md",
     "Behavior-tree.md",
     "2023-09-01.md",
-    "2022-12-24.md",
-    "2023-03-29.md",
     "项目仓库/PDC200",
     "IO/EtherCat",
     "IO/Mqtt",
@@ -221,9 +222,6 @@
     "Pasted image 20230829141108.png",
     "Pasted image 20230829141205.png",
     "Pasted image 20230829141200.png",
-    "Pasted image 20230829141154.png",
-    "Pasted image 20230829141146.png",
-    "Pasted image 20230829141135.png",
     "未命名 9.canvas",
     "未命名 8.canvas",
     "未命名 7.canvas",
