@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elfin机械臂使用.md",
+                "file": "ROS 基础.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elfin机械臂使用.md",
+                "file": "ROS 基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elfin机械臂使用.md",
+                "file": "ROS 基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elfin机械臂使用.md"
+                "file": "ROS 基础.md"
               }
             }
           },
@@ -178,8 +178,10 @@
   },
   "active": "964df6de74f2ef29",
   "lastOpenFiles": [
-    "2023-11-25.md",
+    "2023-11-27.md",
+    "ROS 基础.md",
     "Elfin机械臂使用.md",
+    "2023-11-25.md",
     "任务看板.md",
     "机器人仿真工具.md",
     "2023-11-24.md",
@@ -205,8 +207,6 @@
     "2022-12-24.md",
     "2023-03-29.md",
     "cmake.md",
-    "Open3D icp.md",
-    "项目仓库/多线程.md",
     "项目仓库/PDC200",
     "IO/EtherCat",
     "IO/Mqtt",
