@@ -1,4 +1,5 @@
 workspace.json
+.obsidian/workspace.json
 .vscode
 cmake-build-debug
 *.zip
